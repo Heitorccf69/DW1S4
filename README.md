@@ -43,7 +43,7 @@ Este é um repositório dedicado à disciplina de Desenvolvimento Web.
 Para clonar este repositório, use o seguinte comando:
 
 ```
-git clone https://github.com/seu-usuario/repositorio-desenvolvimento-web.git
+git clone https://github.com/Heitorccf69/DW1S4.git
 ```
 
 ### Links Úteis
