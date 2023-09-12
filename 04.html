@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código 2</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .right-image {
+            width: 50%;
+            text-align: right;
+        }
+
+        .footer {
+            background-image: url('Imagens/Gato.jpg');
+            background-repeat: repeat;
+            height: 70px;
+            background-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Cor</th>
+                    <th>RGBA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: rgba(255, 0, 0, 1);">Vermelho</td>
+                    <td>rgba(255, 0, 0, 1)</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgba(0, 255, 0, 1);">Verde</td>
+                    <td>rgba(0, 255, 0, 1)</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgba(0, 0, 255, 1);">Azul</td>
+                    <td>rgba(0, 0, 255, 1)</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgba(255, 255, 0, 0.5);">Amarelo (50% de opacidade)</td>
+                    <td>rgba(255, 255, 0, 0.5)</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgba(128, 0, 128, 0.75);">Roxo (75% de opacidade)</td>
+                    <td>rgba(128, 0, 128, 0.75)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Div para a segunda imagem à direita -->
+        <div class="right-image">
+            <img src="Imagens/Gato02.jpg" alt="Gato">
+        </div>
+    </div>
+
+    <div class="footer"></div>
+</body>
+
+</html>

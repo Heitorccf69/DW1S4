@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<title>Código 1</title>
+<html>
+
+
+<head>
+    <style>
+        #imagem-central-direita {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            max-width: 200px;
+            height: auto;
+        }
+
+        #div-primeiro-paragrafo {
+            background-color: #ffcc00;
+            padding: 10px;
+            font-size: larger;
+        }
+
+        body {
+            background-color: lightblue;
+            font-size: larger;
+        }
+
+        p:first-child {
+            font-size: 40px;
+        }
+
+        #segundo-paragrafo {
+            background-image: url('Imagens/Gato.jpg');
+            background-repeat: repeat;
+            background-position: center;
+            background-size: 60px;
+            font-size: larger;
+        }
+
+        p:last-child {
+            font-size: 18px;
+            opacity: 0.5;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <img id="imagem-central-direita" src="Imagens/Cover02.jpg" alt="Imagem no Centro à Direita">
+
+    <p>
+    <div id="div-primeiro-paragrafo">
+        Primeiro parágrafo com cor de fundo.
+    </div>
+    </p>
+
+    <div id="segundo-paragrafo">
+        Segundo parágrafo com imagem.
+    </div>
+    </p>
+
+    <p>Terceiro parágrafo com 0.5.</p>
+</body>
+
+</html>
